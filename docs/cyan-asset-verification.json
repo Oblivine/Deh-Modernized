@@ -1,0 +1,969 @@
+{
+  "clips": 59,
+  "frames": 2182,
+  "animationBytes": 4445992,
+  "stillBytes": 268257,
+  "palette": {
+    "black": [
+      0,
+      0,
+      0
+    ],
+    "cyan": [
+      0,
+      255,
+      255
+    ],
+    "brightness": "max native RGB channel"
+  },
+  "frameDurationMs": 63,
+  "resized": false,
+  "sourceAndFrameChecksPassed": true,
+  "fullColorAssetsUntouched": 48,
+  "checks": [
+    {
+      "id": "alt_airship",
+      "file": "alt_airship.lkd",
+      "sourceGitBlobSha": "c75b95c3c125ca2aff01d412a82a90f1488bd6a2",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "c4c313702efc627bf8ad9cd18eb15a87f96e3152d2218f2d07a2fd86ef115af6"
+    },
+    {
+      "id": "alt_bgv1",
+      "file": "alt_bgv1.lkd",
+      "sourceGitBlobSha": "6d1420e0b0a40549e46353cc3103065f69167123",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "47dacdc2c6861fc396b4c9825cba98a20d1948cb6aab5d02d857434ea3e2add8"
+    },
+    {
+      "id": "alt_bgv2",
+      "file": "alt_bgv2.lkd",
+      "sourceGitBlobSha": "84560528b16475465554616d156640eaa4b70b51",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "06a99211c22d2622f7461187b6034d5de568fcb09b57607eca4142b7bc46e85a"
+    },
+    {
+      "id": "alt_bgv3",
+      "file": "alt_bgv3.lkd",
+      "sourceGitBlobSha": "9680653797da1f0abf8c0394b9c885aaf74b13fc",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "7960dc281662a337662607986a8bc01001e4b3fcce7363c0e2e8f34850dd1713"
+    },
+    {
+      "id": "alt_bgv4",
+      "file": "alt_bgv4.lkd",
+      "sourceGitBlobSha": "eb15c6ee3578088f1e35d0036cda04a23e4c83f7",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "1827ec7078e1fb4ccf79ebe567dcbc820dcfd65d996b68ab023b0529a2ec1b8b"
+    },
+    {
+      "id": "dolphins",
+      "file": "alt_diverdolphins.lkd",
+      "sourceGitBlobSha": "f896141aefbc419ad7e1e7b28e26a78c53d5b072",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 149,
+      "encodedFrames": 149,
+      "timelineDurationMs": 9387,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d3678076dd3b13fd89b4056466e76324e7e8f367bdc6ade0e4c2955a488aa64f"
+    },
+    {
+      "id": "alt_dragonrider",
+      "file": "alt_dragonrider.lkd",
+      "sourceGitBlobSha": "2325cd6d863fda1af2e9b2f3367197b13ee44870",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "71c16428c38b040367725288370a8271bfa0fdc4ac0b941bd3539de2ccf6c3af"
+    },
+    {
+      "id": "alt_meter_li01",
+      "file": "alt_meter_li01.lkd",
+      "sourceGitBlobSha": "e7b0eab181815c7a546ff99d6133ec229d03daca",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "c387e074287c299f51b2ff1f90da6ce40793d8d9453585ca6cde97a57085bc26"
+    },
+    {
+      "id": "alt_meter_li02",
+      "file": "alt_meter_li02.lkd",
+      "sourceGitBlobSha": "3a2d23e6a427f7379b377994d8a853db4be99bf9",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "17f9c550eefeb75c380124a9cce1125773cf988e8da33c7054ca03fbcfc8c873"
+    },
+    {
+      "id": "alt_meter_li03",
+      "file": "alt_meter_li03.lkd",
+      "sourceGitBlobSha": "8542045e5d9b83ce58c964966cf56048ef4dc5c1",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "e2610d6d20af62c3c91d33254e42ea94f2e42b27afd36d94c93e685c8f376476"
+    },
+    {
+      "id": "alt_meter_li04",
+      "file": "alt_meter_li04.lkd",
+      "sourceGitBlobSha": "c94f4112d484a05488017748f19b3127972cb258",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "2a82706235a4b8798d14fb5449b0bed54c046caca548819d0d1267a3de8bdef1"
+    },
+    {
+      "id": "alt_meter_li05",
+      "file": "alt_meter_li05.lkd",
+      "sourceGitBlobSha": "db30e66fd73599f7d00bcb1761842bac8b0c1140",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "280bf86ab434fabeb530909ced5917bbe3534760697051de125fe2113cfc8f3f"
+    },
+    {
+      "id": "alt_meter_li06",
+      "file": "alt_meter_li06.lkd",
+      "sourceGitBlobSha": "fdb3a886b1a9d7b3edeb4a6eafbd329e3658429e",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "b63cdf2e9a3d105ac2a1416318a3282050052231d57376c8d3ec508febbf993c"
+    },
+    {
+      "id": "alt_meter_li07",
+      "file": "alt_meter_li07.lkd",
+      "sourceGitBlobSha": "563e1b850625b544e496a35945dedfa0b4c8b30d",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "01e4ac180ba7fc9843e619eb3febaa6cc7bb94e361cfb799d46a74457682ff29"
+    },
+    {
+      "id": "alt_meter_li08",
+      "file": "alt_meter_li08.lkd",
+      "sourceGitBlobSha": "45de74aba20c54ac948fdc6df8d14b47d4cf6d65",
+      "sourceHashMatches": true,
+      "dimensions": [
+        64,
+        66
+      ],
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "f295f0dca0b5234bc3ccef9cb11a6ff5992c3b8570b5d33b9baf770c058384ce"
+    },
+    {
+      "id": "metropolis",
+      "file": "alt_metropolis.lkd",
+      "sourceGitBlobSha": "6fba22973d19c4a8040c681c7a000f414eaa64fa",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "b718b6756d77a9f8855f68ed44509185858be75febc9aec85284dcc296b058b7"
+    },
+    {
+      "id": "alt_still_bgp_e1",
+      "file": "alt_still_bgp_e1.lkd",
+      "sourceGitBlobSha": "18ed3ff5a0955228255ac365b8b2be3ff2c23e7c",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "4063e86b412ac038fe2f544c3f0dbe68ffe15ed831466d69626eafa8e1d504a5"
+    },
+    {
+      "id": "alt_still_bgp_e2",
+      "file": "alt_still_bgp_e2.lkd",
+      "sourceGitBlobSha": "75a79b7837207739069d9c6751ad085b0edf7422",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "b2ba59a163407e067c96092de419417ce385cbac72e26aa16a03c98f8876df14"
+    },
+    {
+      "id": "alt_still_bgp_e3",
+      "file": "alt_still_bgp_e3.lkd",
+      "sourceGitBlobSha": "5105077c6854d9321a6b4cc9738a8e6f8f491372",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "a1e257f655db80e755fe849da8d4b14dca15cbeb7c03b644a1a395e491e76ae3"
+    },
+    {
+      "id": "alt_still_bgp_e4",
+      "file": "alt_still_bgp_e4.lkd",
+      "sourceGitBlobSha": "78823b5dbffb9057ecba1ffa2f151cbf230b59ec",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "7b576823bee48c1ab40dbbf58319bed0d4681d78546b118cfc5377b312346551"
+    },
+    {
+      "id": "alt_still_bgp_e5",
+      "file": "alt_still_bgp_e5.lkd",
+      "sourceGitBlobSha": "833d94366f6ddad0052e0274823b786099858357",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "726f52de597b14bd506321c15c8811a5eeabdd9a8899ab88d0f087a66e9350c7"
+    },
+    {
+      "id": "alt_waterboard",
+      "file": "alt_waterboard.lkd",
+      "sourceGitBlobSha": "dca5ac2af1a8459a0f9d4dec6ade7d2c2acb23a8",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d89fd1a2bb62155ad6116ecb35cca6b8ea74b213660694c9043c66bbdea3eadd"
+    },
+    {
+      "id": "alt_wildlife",
+      "file": "alt_wildlife.lkd",
+      "sourceGitBlobSha": "d449d6627d24e5a8a1c870b890de4425e82632bd",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "ace23c66e5f22713e65b48cfecfababc74387afa76f636d4ed7c721d8b39ff5a"
+    },
+    {
+      "id": "alt_wrc",
+      "file": "alt_wrc.lkd",
+      "sourceGitBlobSha": "14d37d322027f9480243bd21489e92e3ecb3312e",
+      "sourceHashMatches": true,
+      "dimensions": [
+        128,
+        33
+      ],
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "c8c5bd5f6c7293a17ccb2221b8b2cca5e1648408d5f32bb1304a46f6a2f0d247"
+    },
+    {
+      "id": "level01",
+      "file": "meter_level01.lkd",
+      "sourceGitBlobSha": "19ce4af8892ea11ed76472c035154b299b4fd948",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "7ead6e61014883421f1a5b035841d6bf8ffd749d4a3a1371cbc18b7838ebe56f"
+    },
+    {
+      "id": "meter_level02",
+      "file": "meter_level02.lkd",
+      "sourceGitBlobSha": "dc5cc2a925f8eb877f4bdb3a5121f238316ed84f",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "5ec4ea5ff44a64e82fded4af1310a5ea4a3480408e6718b63dd5c98f9b4c4660"
+    },
+    {
+      "id": "level03",
+      "file": "meter_level03.lkd",
+      "sourceGitBlobSha": "78890be422400e057bb98e61916752c711f8a0c0",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "243e32efc98054ecedd4b0391c60ed4ec2140a89463d3f5e092b02b31733f80a"
+    },
+    {
+      "id": "meter_level04",
+      "file": "meter_level04.lkd",
+      "sourceGitBlobSha": "871e68e61d0d5f035257ff68c62d6451800b31a4",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "4fde6896a64509380eb8107d9bd44d7381421e316a10b4b1ac5f1a9a909ca2e3"
+    },
+    {
+      "id": "meter_level05",
+      "file": "meter_level05.lkd",
+      "sourceGitBlobSha": "d3aaf0645eb1ac1a04ac283417d370477364a8f4",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d09226dedcfb6fceb208c1644ba1a624f129c60ca628c920cc0a97ef15f208fc"
+    },
+    {
+      "id": "meter_level06_f",
+      "file": "meter_level06_f.lkd",
+      "sourceGitBlobSha": "f4482d81d5c20c654e814fd6e4f90ce434ad0c99",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "cfbe2dccd1d4dccc04b2998cfe7be1393a9c225fbeaa70572f2589fbe45deaf2"
+    },
+    {
+      "id": "meter_level07_f",
+      "file": "meter_level07_f.lkd",
+      "sourceGitBlobSha": "c9ea9565fcc70a96e3524c408924160cfce46dbc",
+      "sourceHashMatches": true,
+      "dimensions": [
+        96,
+        96
+      ],
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "18b38a0ff8b935a2c04ee18607b66250bd2b4110b8b8beaf88695536504e82d8"
+    },
+    {
+      "id": "waterfall",
+      "file": "movie1.lkd",
+      "sourceGitBlobSha": "9f91225ff38c7f04e1564082c537bf717b1924c8",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "93d21b613876b6f3036fd5deee1397c82e6bedc0a1191c07c2dcca40471aac48"
+    },
+    {
+      "id": "movie10_f",
+      "file": "movie10_f.lkd",
+      "sourceGitBlobSha": "2c250da14481c19d03eaf979fea73630940f42da",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "90cb1fbf86f3cf9de5f391ddba3930a5b36262b73c80e3ef10a49f06db81a147"
+    },
+    {
+      "id": "movie2",
+      "file": "movie2.lkd",
+      "sourceGitBlobSha": "31272ea4860c9e4b1b6f6fc70c17565f442eec4d",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "93c9c434dd0828429205c4c9e44bcfc04eb382f216d0ae038a60751d838b5d37"
+    },
+    {
+      "id": "movie3",
+      "file": "movie3.lkd",
+      "sourceGitBlobSha": "d160b5286a42efbf4eaba37fc600fee1596fdb43",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "5e9b26bb2918434488ef549024203d552fb6aba880d7779c4f03784a808ec0a1"
+    },
+    {
+      "id": "movie4",
+      "file": "movie4.lkd",
+      "sourceGitBlobSha": "830d4d872b4c311ba48fc6f01b026ffc83468592",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "0d1e983394754c89576d938d2a97d5edaba8e2d0fdf239881a94ce883acbe4d8"
+    },
+    {
+      "id": "movie5",
+      "file": "movie5.lkd",
+      "sourceGitBlobSha": "0f86547d3583baadc085bae13687426360b01aab",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "6434651768776188925ca77223b4136a22f4e89b998d3167a2bc6d397fe0c0b7"
+    },
+    {
+      "id": "movie6",
+      "file": "movie6.lkd",
+      "sourceGitBlobSha": "db3083c0ca94bf99575a876998a5c898165dde33",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "110a41082098412b6a0a485ebb953ee8084c4ebaae9b0b0516dce89884c2ee5b"
+    },
+    {
+      "id": "movie7",
+      "file": "movie7.lkd",
+      "sourceGitBlobSha": "9db0ac6f3ce6e82d45572ad6526af74d38714df2",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "87da11d7958220b2e461d698bb3b9dda799558d40ad5e658b51ff14c8dfaa150"
+    },
+    {
+      "id": "movie8_f",
+      "file": "movie8_f.lkd",
+      "sourceGitBlobSha": "d4bf1308e7df69e2a6c9ca838e607e9747eb362d",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d855e213272961f83133c21984ea5e3ca5372654094f06a74bed257a2e6be1c1"
+    },
+    {
+      "id": "movie9_f",
+      "file": "movie9_f.lkd",
+      "sourceGitBlobSha": "1de4c3d88cebef086512d12a8b518a673e2d13a7",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        64
+      ],
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d9e2bf364a42cca7e37c5606cda4220b8b119e959437716a7cdb401840a58c7c"
+    },
+    {
+      "id": "still_bgp01",
+      "file": "still_bgp01.lkd",
+      "sourceGitBlobSha": "7056ec6101ec788c7ab7083ed103f836b5cab29a",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "a568fc0f28a3b93a53aea5ad8e45a8951513287b97211a207a58ee027cd0bffe"
+    },
+    {
+      "id": "still_bgp02",
+      "file": "still_bgp02.lkd",
+      "sourceGitBlobSha": "357597da91aa5a65b985d69db1f4258ff083127b",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "c33400f84517f43f09949d5855b7288d5928c396e77fcf0433f121e286fa8351"
+    },
+    {
+      "id": "still_bgp03",
+      "file": "still_bgp03.lkd",
+      "sourceGitBlobSha": "d1fd831bf29662981252d0a7263be65214c5be8e",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "21f01aafabbf1975d05959a2fcf2f5bd2a9efe3290b664e4c0eea3b98b47b891"
+    },
+    {
+      "id": "still_bgp04",
+      "file": "still_bgp04.lkd",
+      "sourceGitBlobSha": "ec72d48948c3687220e8f782c67306ec65caccef",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "f0796b36e9f39cf76ffda0d54da8303d1b6fe79cefd3506eee7c3edb2546ab28"
+    },
+    {
+      "id": "still_bgp05",
+      "file": "still_bgp05.lkd",
+      "sourceGitBlobSha": "8aa81b657cde2cc11f2c8c2b52ab07b33af6e0db",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "6c1c8b8583d259f0dbfb2c18aca90ef05dc9c714a966bc545eb46c6aa366650c"
+    },
+    {
+      "id": "still_bgp06",
+      "file": "still_bgp06.lkd",
+      "sourceGitBlobSha": "2df8e2eb023a9c7e6b3ce45a4a0ab08d7221c723",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "a849c6aa2013fcc92bd9d79cf4c1aa756a69d1e78fc6596228820ee5951a1102"
+    },
+    {
+      "id": "still_bgp07",
+      "file": "still_bgp07.lkd",
+      "sourceGitBlobSha": "a6ab37e2137c43bd4f75f1639d093e99a9e3d780",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "a0e07522ce2b0b2f3a32b0648a8126ab4e984b305ebe34f5baa1f7de13f3bbbf"
+    },
+    {
+      "id": "still_bgp08",
+      "file": "still_bgp08.lkd",
+      "sourceGitBlobSha": "a1d38050b1a21555f867d60fa460b624947747de",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "e22bb80ba5ef625db735a467005370b6ee9fd9046a13e19a599e4235295a65ab"
+    },
+    {
+      "id": "still_bgp09",
+      "file": "still_bgp09.lkd",
+      "sourceGitBlobSha": "0df927a4bbbdec58b3a934763ef4f1eca00be073",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "02b822bf70db4f758c9ee9ee1013437c29d936c44e356ef014297e8984296e35"
+    },
+    {
+      "id": "still_bgp_f_10",
+      "file": "still_bgp_f_10.lkd",
+      "sourceGitBlobSha": "a3373e1af0c8eb94aa8dfe47c1fc561a0d673277",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "ac717ec0e9acbafa14ecc58e3f6c94ff394ef46839cb232aea82742b723e6141"
+    },
+    {
+      "id": "still_bgp_f_11",
+      "file": "still_bgp_f_11.lkd",
+      "sourceGitBlobSha": "b8a2288f30aee8472696d753540abd733c5f8ac2",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "94501d589677be20be4a6d9af3cfe40b2c0450641efda893c925384d11896cb7"
+    },
+    {
+      "id": "still_bgp_f_12",
+      "file": "still_bgp_f_12.lkd",
+      "sourceGitBlobSha": "25114fbbf8271cef00e6f48c85ed7e5c221082c9",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "23f13e03cf2471deb07b89b0e7ac17b0f2a0bcb7257d06ea2527c3dc6160466c"
+    },
+    {
+      "id": "still_bgp_f_13",
+      "file": "still_bgp_f_13.lkd",
+      "sourceGitBlobSha": "af9e66eed6adefd3d195790ec5987d96b823d77c",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "d1d32f34f2217d01e9af152804ee7de5f0e00d075d7c89f579b86401156983f5"
+    },
+    {
+      "id": "still_bgp_f_14",
+      "file": "still_bgp_f_14.lkd",
+      "sourceGitBlobSha": "7c6c7ef1720ea372d2640765e1c35eaa69033ede",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "b4571f85686c713836dac8e512029b409ca4ffd9e4349baecd51d2ae62f6e84f"
+    },
+    {
+      "id": "still_bgp_f_15",
+      "file": "still_bgp_f_15.lkd",
+      "sourceGitBlobSha": "13b9ba4b1ddc65c83cb545988fe1e50f9f58877e",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "1dc69ef587df7fd5c08bc64aafaf9d2ebad66c63a26c335c4282f7681d0c182e"
+    },
+    {
+      "id": "still_bgp_f_16",
+      "file": "still_bgp_f_16.lkd",
+      "sourceGitBlobSha": "e9b556627638d0ab9a0753cbe0c2548772f8fb50",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "1b3ef2942414ceb517f75c5bb6eebdb7cda2674dbdb2b8dbc912dfc97827bdd0"
+    },
+    {
+      "id": "still_bgp_f_17",
+      "file": "still_bgp_f_17.lkd",
+      "sourceGitBlobSha": "b3ddcf7088f25c8070959f3173f6573cbe192bd0",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "8783defb28bedff2abbb441603e125a8d5e778ae0f0901f31b8d9a72ed834788"
+    },
+    {
+      "id": "still_bgp_f_18",
+      "file": "still_bgp_f_18.lkd",
+      "sourceGitBlobSha": "14556e77b77d18940c9d7a03e908841b2469ae1b",
+      "sourceHashMatches": true,
+      "dimensions": [
+        256,
+        48
+      ],
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "allCyanFramePixelsVerified": true,
+      "thumbnailVerified": true,
+      "outputSha256": "90f5566969e6f7fe1990dfe8f7147d916b9b30594888b59f91d2f132e8c3e693"
+    }
+  ]
+}

@@ -8,13 +8,15 @@
 
 ## What changed and what works
 
+The current interface uses Accessories Urban, dark high-carbon liquid-chrome controls, a compact movie selector and a single header frame. Scanlines, glow and edge shading apply only to the animation. The left and right halves of the animation select the previous and next movie. There is no song-seeking slider. Amber/Cyan illumination changes the interface and monochrome clip files, with full-color clips retained. All movie dimensions remain native.
+
 Removed the requested USB music label, recorded-animation caption, and Library / Repeat / Shuffle / Photos buttons from the player. The original X3 knob, Home/Power key and port layout remain. Player transport, radio tuning/presets, volume, audio controls, automatic dimming and saved preferences remain interactive demonstrations. Music is silent; radio, phone and camera services do not access hardware.
 
-The picker contains all **83 original Carozerra assets: 59 amber and 24 original RGB color**, organized into Movies, Backgrounds, Meters, Stills and Color. This includes still images that are part of the collection. All **3,592 frames**, frame order and native dimensions were verified against pinned original Git blobs. The 63 ms frame interval follows the reference web player; timing on actual Pioneer hardware was not measured. Meter clips are recorded animations, not live audio analysis. [Original reference](https://youxufkhan.github.io/carozerra/), [pinned source collection](https://github.com/youxufkhan/carozerra/tree/main/assets/clips).
+The picker displays all 17 movies on one screen at head-unit size; a tap begins playback, and optional shuffle advances after a full clip. Animated clips have no pause control and retain the original resolution and presentation size. The picker contains all **83 original Carozerra assets: 59 amber and 24 original RGB color**, organized into Movies, Backgrounds, Meters, Stills and Color. This includes still images that are part of the collection. All **3,592 frames**, frame order and native dimensions were verified against pinned original Git blobs. The 63 ms frame interval follows the reference web player; timing on actual Pioneer hardware was not measured. Meter clips are recorded animations, not live audio analysis. [Original reference](https://youxufkhan.github.io/carozerra/), [pinned source collection](https://github.com/youxufkhan/carozerra/tree/main/assets/clips).
 
-The initial page requests one animated asset; the picker loads at most six still thumbnails per desktop page, four on small screens. A browser may retain decoded image caches after navigation. This is not an implementation of a bounded native streaming decoder.
+The player loads one active animated asset. It loads the next clip before switching so the current one can keep moving; other animation categories show at most six still thumbnails per desktop page, four on small screens. A browser may retain decoded image caches after navigation. This is not an implementation of a bounded native streaming decoder.
 
-Browser checks passed all 83 selections and decodes, playback, tuning/preset storage, EQ edits, dimming, persistence and responsive layouts, with no script errors. Native-size layout checks kept the panel controls within the available frame. Hardware lab is on the second Settings page.
+Browser checks passed all 83 animation decodes, the 17-movie picker and shuffle cycle, automatic switching while music is paused, playback, radio, EQ, dimming, persistence and responsive layouts, with no script errors. Native-size layout checks kept the panel controls within the available frame. Hardware lab is on the second Settings page.
 
 ## Documented hardware and limits
 
@@ -25,6 +27,9 @@ Firsthand X3 firmware research identifies Linux 4.9.217, 32-bit ARM EABI5 and Qt
 No compatible SPHE8368-U board model was located in the examined QEMU Arm machine documentation. A generic Cortex-A7 or `virt` machine would omit Sunplus display, DSP, MCU, storage and projection services. [QEMU Arm documentation](https://www.qemu.org/docs/master/system/target-arm.html).
 
 ## Memory model
+
+The package includes 59 cyan variants alongside 59 amber and 24 original full-color clips. The cyan variants preserve 2,182 source-frame positions and 63 ms timing, with source brightness mapped to OEL cyan. The player loads the selected palette; it does not decode both libraries eagerly. The base decoded-frame arithmetic below is unchanged by palette switching.
+
 
 | Allocation | Calculated size |
 | --- | ---: |
@@ -45,14 +50,14 @@ Windows x86-64 Chrome, 1024 × 600 display area, local static server. Each run m
 
 | Relative CPU throttle | Initial load | Tap to frame median | Tap to frame p95 | Visible animation changes | JS heap |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 1× | 181 ms | 13.9 ms | 99.5 ms | 15.69/s | 5.07 MiB |
-| 4× | 436 ms | 20.2 ms | 215.4 ms | 15.69/s | 4.97 MiB |
-| 8× | 886 ms | 34.8 ms | 182.7 ms | 15.63/s | 5.11 MiB |
-| 16× | 2595 ms | 94.4 ms | 272.5 ms | 15.56/s | 4.35 MiB |
+| 1× | 2029 ms | 13.9 ms | 872.7 ms | 15.66/s | 4.57 MiB |
+| 4× | 8955 ms | 24.6 ms | 3527.6 ms | 15.67/s | 4.48 MiB |
+| 8× | 16408 ms | 51.4 ms | 7800.0 ms | 15.64/s | 3.92 MiB |
+| 16× | 36957 ms | 229.9 ms | 17560.5 ms | 15.58/s | 3.74 MiB |
 
-These are **uncalibrated desktop stress factors**, not X3-equivalent CPU speeds. They throttle browser main-thread execution; decoder threads, GPU, memory bandwidth and ARM instructions are not reproduced. The frame capture adds overhead and counts visible changes, so duplicate source frames need not produce a change. Tap timings are paint opportunities, not measured physical touch-to-photon latency. Cold transitions cause occasional longer stalls (maximum 640 ms).
+These are **uncalibrated desktop stress factors**, not X3-equivalent CPU speeds. They throttle browser main-thread execution; decoder threads, GPU, memory bandwidth and ARM instructions are not reproduced. The frame capture adds overhead and counts visible changes, so duplicate source frames need not produce a change. Tap timings are paint opportunities, not measured physical touch-to-photon latency. Cold transitions cause occasional longer stalls (maximum 25456 ms).
 
-The baseline Chrome renderer processes summed to 211.23 MiB working sets; all reported browser processes summed to 508.08 MiB. Shared pages may be counted more than once, and these desktop snapshots do not predict ARM memory use. They demonstrate why the small JavaScript heap alone is an inadequate feasibility measure. No audio playback, CarPlay/Android Auto, Bluetooth or camera workload ran in these tests.
+The baseline Chrome renderer processes summed to 217.79 MiB working sets; all reported browser processes summed to 525.05 MiB. Shared pages may be counted more than once, and these desktop snapshots do not predict ARM memory use. They demonstrate why the small JavaScript heap alone is an inadequate feasibility measure. No audio playback, CarPlay/Android Auto, Bluetooth or camera workload ran in these tests.
 
 ## Next engineering stage
 

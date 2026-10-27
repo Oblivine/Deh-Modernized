@@ -1,0 +1,97 @@
+{
+  "measuredAt": "2026-10-27T03:08:14.493Z",
+  "environment": "Windows desktop Chrome, headless, x86-64; not the X3",
+  "viewport": {
+    "width": 1024,
+    "height": 600
+  },
+  "cpuCalibration": "No calibration to Cortex-A7 or X3; arbitrary relative Chrome stress factors",
+  "timingMethod": "DOM click to second requestAnimationFrame opportunity, 36 actions per run; local HTTP; no network latency in clip playback",
+  "animationMethod": "CDP painted-frame screencast cropped to animation; pixel hash counts visible image changes for four seconds; duplicate source frames can reduce count; PNG capture adds overhead",
+  "limitations": [
+    "CPU throttling does not constrain image decoder/GPU the same way as ARM hardware",
+    "JS heap excludes native decoder, GPU, renderer overhead and OS",
+    "RSS is a desktop process snapshot; summed process working sets can double-count shared pages",
+    "No ARM firmware, proprietary peripherals, framebuffer driver, audio DSP, MCU, Bluetooth, camera or phone projection emulated"
+  ],
+  "rendererWorkingSetMiB": 217.79,
+  "aggregateWorkingSetMiB": 525.05,
+  "runs": [
+    {
+      "cpuThrottle": 1,
+      "initialLoadMs": 2028.84,
+      "inputToFrameP50Ms": 13.9,
+      "inputToFrameP95Ms": 872.7,
+      "inputToFrameMaxMs": 1243.9,
+      "observedAnimationChangesPerSec": 15.66,
+      "observed": {
+        "changes": 63,
+        "elapsedMs": 4022.4611999999997,
+        "samples": 65,
+        "clip": "movie1.lkd",
+        "sourceIntervalMs": 63,
+        "screenWidth": 1024,
+        "screenHeight": 600
+      },
+      "jsHeapUsedMiB": 4.57,
+      "actionsMeasured": 36
+    },
+    {
+      "cpuThrottle": 4,
+      "initialLoadMs": 8954.64,
+      "inputToFrameP50Ms": 24.6,
+      "inputToFrameP95Ms": 3527.6,
+      "inputToFrameMaxMs": 5025.9,
+      "observedAnimationChangesPerSec": 15.67,
+      "observed": {
+        "changes": 63,
+        "elapsedMs": 4020.7706000000035,
+        "samples": 65,
+        "clip": "movie1.lkd",
+        "sourceIntervalMs": 63,
+        "screenWidth": 1024,
+        "screenHeight": 600
+      },
+      "jsHeapUsedMiB": 4.48,
+      "actionsMeasured": 36
+    },
+    {
+      "cpuThrottle": 8,
+      "initialLoadMs": 16408.16,
+      "inputToFrameP50Ms": 51.4,
+      "inputToFrameP95Ms": 7800,
+      "inputToFrameMaxMs": 11135.8,
+      "observedAnimationChangesPerSec": 15.64,
+      "observed": {
+        "changes": 63,
+        "elapsedMs": 4027.8768999999884,
+        "samples": 65,
+        "clip": "movie1.lkd",
+        "sourceIntervalMs": 63,
+        "screenWidth": 1024,
+        "screenHeight": 600
+      },
+      "jsHeapUsedMiB": 3.92,
+      "actionsMeasured": 36
+    },
+    {
+      "cpuThrottle": 16,
+      "initialLoadMs": 36956.93,
+      "inputToFrameP50Ms": 229.9,
+      "inputToFrameP95Ms": 17560.5,
+      "inputToFrameMaxMs": 25455.6,
+      "observedAnimationChangesPerSec": 15.58,
+      "observed": {
+        "changes": 63,
+        "elapsedMs": 4043.740699999995,
+        "samples": 65,
+        "clip": "movie1.lkd",
+        "sourceIntervalMs": 63,
+        "screenWidth": 1024,
+        "screenHeight": 600
+      },
+      "jsHeapUsedMiB": 3.74,
+      "actionsMeasured": 36
+    }
+  ]
+}

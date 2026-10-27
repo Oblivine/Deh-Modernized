@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "reference effects confined to the animation",
+    "animation edges navigate previous/next",
+    "seek slider removed",
+    "animation border removed",
+    "Accessories Urban web font loaded",
+    "one alloy header without mini frames",
+    "compact movie selector",
+    "amber and cyan alloy previews"
+  ],
+  "errors": [],
+  "style": {
+    "border": "0px",
+    "scan": "repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 1.5px, rgba(0, 0, 0, 0.467) 1.5px, rgba(0, 0, 0, 0.467) 3px)",
+    "lcdOverlay": "none",
+    "glow": "blur(3px) brightness(1.7) saturate(1.15)",
+    "font": "\"Accessories Urban\", sans-serif",
+    "selectorRatio": 0.1645949720670391,
+    "topButtons": [
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "seek": 0,
+    "topImage": "url(\"http://127.0.0.1:8765/assets/skins/liquid-topbar.svg\")"
+  },
+  "portableFontLoads": true
+}

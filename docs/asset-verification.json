@@ -1,0 +1,856 @@
+{
+  "clips": 83,
+  "amberClips": 59,
+  "colorClips": 24,
+  "frames": 3592,
+  "originalBytes": 11913448,
+  "animationBytes": 8613156,
+  "stillBytes": 477736,
+  "allClipsDecodedRgbaBytes": 121684992,
+  "maxActiveClipRgbaBytes": 5529600,
+  "maxActiveClipRgb565Bytes": 2764800,
+  "maxStreamingDoubleRgbaBytes": 131072,
+  "maxDimensions": [
+    256,
+    96
+  ],
+  "categories": {
+    "Movies": 17,
+    "Backgrounds": 4,
+    "Meters": 15,
+    "Stills": 23,
+    "Color": 24
+  },
+  "checks": [
+    {
+      "clip": "alt_bgv2.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_bgv3.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_bgv1.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_bgv4.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 29,
+      "encodedFrames": 29,
+      "timelineDurationMs": 1827,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li01.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li02.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li03.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li04.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_airship.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li05.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li06.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li07.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_diverdolphins.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 149,
+      "encodedFrames": 149,
+      "timelineDurationMs": 9387,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_still_bgp_e1.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_meter_li08.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 30,
+      "encodedFrames": 30,
+      "timelineDurationMs": 1890,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_still_bgp_e2.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_dragonrider.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_still_bgp_e3.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_still_bgp_e4.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_still_bgp_e5.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_metropolis.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_waterboard.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_wildlife.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "alt_wrc.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "color_01_nightcruising.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_02_greatbarrierreef.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_05_firedragon.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_04_island.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_03_redplanet.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv01.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_06_racingcart.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv02.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv03.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv05.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv04.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp01.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp02.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp03.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp04.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp05.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp06.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv06.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_bgv07.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 50,
+      "encodedFrames": 50,
+      "timelineDurationMs": 3150,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp07.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp08.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp09.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "color_still_bgp10.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "meter_level03.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "meter_level01.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "color_07_motogp.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 150,
+      "encodedFrames": 150,
+      "timelineDurationMs": 9450,
+      "colorPreserved": true,
+      "amberPalette": false
+    },
+    {
+      "clip": "meter_level02.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "meter_level04.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "meter_level06_f.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "meter_level05.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "meter_level07_f.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 22,
+      "encodedFrames": 22,
+      "timelineDurationMs": 1386,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie1.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie10_f.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie2.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie3.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie4.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie5.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp01.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp02.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie6.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp03.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp04.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp05.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp06.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie8_f.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp07.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp08.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie9_f.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_10.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_11.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp09.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "movie7.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 60,
+      "encodedFrames": 60,
+      "timelineDurationMs": 3780,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_12.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_14.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_15.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_13.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_16.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_17.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    },
+    {
+      "clip": "still_bgp_f_18.lkd",
+      "sourceHashMatches": true,
+      "allFramePixelsPreserved": true,
+      "originalFrames": 1,
+      "encodedFrames": 1,
+      "timelineDurationMs": 63,
+      "colorPreserved": false,
+      "amberPalette": true
+    }
+  ]
+}

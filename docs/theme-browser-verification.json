@@ -1,0 +1,119 @@
+{
+  "checks": [
+    "saved display selector switches interface and actual animation files to cyan",
+    "outer backdrop, display and content background are pure black",
+    "illumination persists after reload",
+    "gallery thumbnails follow illumination; full-color clips use the same original file in both modes",
+    "native movie dimensions retained; no upscaling",
+    "auto-dimming retained on its own display tab",
+    "all142 amber/cyan/full-color animation files decode correctly"
+  ],
+  "layouts": [
+    {
+      "name": "cyan display",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "cyan player",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "cyan sources",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "cyan audio",
+      "height": 596.578125,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "cyan system",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "cyan entertainment",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "dimming tab",
+      "height": 587.0625,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "color at 760",
+      "height": 622.75,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "dimming at 760",
+      "height": 622.75,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "color at 480",
+      "height": 617.75,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "dimming at 480",
+      "height": 617.75,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "color at 360",
+      "height": 597.96875,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "dimming at 360",
+      "height": 597.96875,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "color at 320",
+      "height": 607.25,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    },
+    {
+      "name": "dimming at 320",
+      "height": 607.25,
+      "horizontal": false,
+      "overlap": false,
+      "overflow": []
+    }
+  ],
+  "errors": []
+}
