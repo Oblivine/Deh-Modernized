@@ -1,0 +1,12 @@
+{
+  "researchDate": "2026-10-26",
+  "scope": "documented reference X3 platform; user's physical unit not verified",
+  "soc": {"model":"SPHE8368-U","cpu":"ARM Cortex-A7","coprocessor":"Andes N13","clockMHz":null},
+  "memory": {"embeddedDdrBits":1073741824,"nominalMiB":128,"availableApplicationMiB":null,"basis":"Sunplus embedded 1Gb DDR2 specification; capacity convention"},
+  "firmware": {"referenceBuild":"X3_20250718","linux":"4.9.217","abi":"32-bit ARM EABI5","qt":"5.3.2","usableBrowserVerified":false},
+  "display": {"prototypeWidth":1024,"prototypeHeight":600,"basis":"reference X3 Android Auto display/touch configuration","physicalFramebufferVerified":false},
+  "referenceStorage": {"userdataReportedMB":132,"userdataReportedFreeMB":130,"nvmReportedMB":16,"nvmReportedFreeMB":12.2,"tmpfsReportedSharedMB":28},
+  "emulation": {"exactBoardEmulated":false,"compatibleQemuBoardLocated":false,"cpuThrottleCalibratedToX3":false,"reason":"A generic Arm CPU model lacks Sunplus board peripherals, proprietary display/DSP/MCU services and firmware integration."},
+  "recommendation": "Conditional native Qt/frame-streaming feasibility; modern browser deployment unverified; no flash-ready claim.",
+  "sources": ["https://www.sunplus.com/products/sphe8368-U.asp","https://storage.googleapis.com/www.taiwantradeshow.com.tw/product/202203/T-01752086.pdf","https://github.com/prasys/eannon-x3-fw-reverse/blob/main/docs/FINDINGS.md","https://www.qemu.org/docs/master/system/target-arm.html"]
+}
