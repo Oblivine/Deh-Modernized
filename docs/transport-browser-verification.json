@@ -1,0 +1,102 @@
+{
+  "checks": [
+    "separate play, pause, stop and track controls work",
+    "pause retains elapsed time, stop resets it, animation keeps running",
+    "round icon-only navigation follows a symmetric arc",
+    "native player controls fit without scrolling or overlaps",
+    "all 17 movies remain visible",
+    "navigation destinations respond",
+    "spiked top-bar emblem removed",
+    "no chrome button frames"
+  ],
+  "geometry": {
+    "playerScroll": 0,
+    "rootHeight": 587.0625,
+    "transport": [
+      {
+        "width": 66.15625,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      },
+      {
+        "width": 66.171875,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      },
+      {
+        "width": 66.15625,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      },
+      {
+        "width": 66.171875,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      },
+      {
+        "width": 66.171875,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      },
+      {
+        "width": 66.15625,
+        "height": 51,
+        "inside": true,
+        "chrome": false
+      }
+    ],
+    "nav": [
+      {
+        "width": 64,
+        "height": 64,
+        "cx": 293.5,
+        "cy": 498.0625,
+        "round": "50%",
+        "label": "Now playing",
+        "wordDisplay": "none"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "cx": 425,
+        "cy": 527.0625,
+        "round": "50%",
+        "label": "Source",
+        "wordDisplay": "none"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "cx": 556.5,
+        "cy": 538.0625,
+        "round": "50%",
+        "label": "Phone",
+        "wordDisplay": "none"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "cx": 688,
+        "cy": 527.0625,
+        "round": "50%",
+        "label": "Audio",
+        "wordDisplay": "none"
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "cx": 819.5,
+        "cy": 498.0625,
+        "round": "50%",
+        "label": "Settings",
+        "wordDisplay": "none"
+      }
+    ]
+  },
+  "errors": []
+}

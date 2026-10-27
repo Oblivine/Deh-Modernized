@@ -1,0 +1,16 @@
+[
+  {
+    "family": "audiowide",
+    "sourceGitBlobSha": "8b50bedc0f99bcfcb5686a3dbeb5b51d1c0190d5",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/Audiowide-Regular.ttf",
+    "license": "SIL Open Font License 1.1",
+    "woff2Bytes": 22996
+  },
+  {
+    "family": "orbitron",
+    "sourceGitBlobSha": "1fc54ce7116a6ec549f37358466bcc92f9a72c33",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/orbitron/Orbitron%5Bwght%5D.ttf",
+    "license": "SIL Open Font License 1.1",
+    "woff2Bytes": 9224
+  }
+]

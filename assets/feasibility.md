@@ -8,7 +8,7 @@
 
 ## What changed and what works
 
-The current interface uses Accessories Urban, dark high-carbon liquid-chrome controls, a compact movie selector and a single header frame. Scanlines, glow and edge shading apply only to the animation. The left and right halves of the animation select the previous and next movie. There is no song-seeking slider. Amber/Cyan illumination changes the interface and monochrome clip files, with full-color clips retained. All movie dimensions remain native.
+The current interface uses selectable Audiowide, Orbitron and Accessories Urban, theme-tinted recessed playback keys and round icon navigation in a symmetric arc, larger round navigation, corner shortcuts for Backgrounds/Color/Meters, and movie shuffle within the playback strip and a single header frame. Scanlines, glow and edge shading apply only to the animation. The left and right halves of the animation select the previous and next movie. There is no song-seeking slider. Amber/Cyan illumination changes the interface and monochrome clip files, with full-color clips retained. All encoded movie dimensions remain native. Meter displays crop the original upper/lower halves into adjacent viewports; they do not regenerate source frames. Browser image-cache sharing across the meter and glow layers has not been verified on the X3.
 
 Removed the requested USB music label, recorded-animation caption, and Library / Repeat / Shuffle / Photos buttons from the player. The original X3 knob, Home/Power key and port layout remain. Player transport, radio tuning/presets, volume, audio controls, automatic dimming and saved preferences remain interactive demonstrations. Music is silent; radio, phone and camera services do not access hardware.
 
@@ -50,14 +50,14 @@ Windows x86-64 Chrome, 1024 × 600 display area, local static server. Each run m
 
 | Relative CPU throttle | Initial load | Tap to frame median | Tap to frame p95 | Visible animation changes | JS heap |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 1× | 2029 ms | 13.9 ms | 872.7 ms | 15.66/s | 4.57 MiB |
-| 4× | 8955 ms | 24.6 ms | 3527.6 ms | 15.67/s | 4.48 MiB |
-| 8× | 16408 ms | 51.4 ms | 7800.0 ms | 15.64/s | 3.92 MiB |
-| 16× | 36957 ms | 229.9 ms | 17560.5 ms | 15.58/s | 3.74 MiB |
+| 1× | 547 ms | 13.9 ms | 308.8 ms | 15.70/s | 3.06 MiB |
+| 4× | 1021 ms | 13.9 ms | 228.5 ms | 15.63/s | 3.07 MiB |
+| 8× | 2288 ms | 34.0 ms | 141.1 ms | 15.39/s | 3.09 MiB |
+| 16× | 5045 ms | 75.0 ms | 186.1 ms | 15.52/s | 3.09 MiB |
 
-These are **uncalibrated desktop stress factors**, not X3-equivalent CPU speeds. They throttle browser main-thread execution; decoder threads, GPU, memory bandwidth and ARM instructions are not reproduced. The frame capture adds overhead and counts visible changes, so duplicate source frames need not produce a change. Tap timings are paint opportunities, not measured physical touch-to-photon latency. Cold transitions cause occasional longer stalls (maximum 25456 ms).
+These are **uncalibrated desktop stress factors**, not X3-equivalent CPU speeds. They throttle browser main-thread execution; decoder threads, GPU, memory bandwidth and ARM instructions are not reproduced. The frame capture adds overhead and counts visible changes, so duplicate source frames need not produce a change. Tap timings are paint opportunities, not measured physical touch-to-photon latency. Cold transitions cause occasional longer stalls (maximum 512 ms).
 
-The baseline Chrome renderer processes summed to 217.79 MiB working sets; all reported browser processes summed to 525.05 MiB. Shared pages may be counted more than once, and these desktop snapshots do not predict ARM memory use. They demonstrate why the small JavaScript heap alone is an inadequate feasibility measure. No audio playback, CarPlay/Android Auto, Bluetooth or camera workload ran in these tests.
+The baseline Chrome renderer processes summed to 207.23 MiB working sets; all reported browser processes summed to 505.79 MiB. Shared pages may be counted more than once, and these desktop snapshots do not predict ARM memory use. They demonstrate why the small JavaScript heap alone is an inadequate feasibility measure. No audio playback, CarPlay/Android Auto, Bluetooth or camera workload ran in these tests.
 
 ## Next engineering stage
 

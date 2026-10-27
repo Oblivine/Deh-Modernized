@@ -1,0 +1,58 @@
+/* Theme-tinted early media-player keys, replacing the chrome button frames. */
+#x3-2008 .mx-core-mark{display:none!important}
+#x3-2008 .ax-lcd button:not(.mx-animation-hit){background:linear-gradient(135deg,#ffffff12,transparent 32%,#0005 85%),linear-gradient(to bottom,var(--dim) 0,var(--off) 9%,#030708 54%,var(--off) 94%,#000 100%);color:var(--mid);border:1px solid var(--dim);border-radius:2px;box-shadow:inset 1px 1px 1px #ffffff2b,inset -2px -2px 2px #000a;min-height:44px}
+#x3-2008 .ax-lcd button:not(.mx-animation-hit):hover{color:var(--hot);filter:brightness(1.1)}
+#x3-2008 .ax-lcd button[aria-pressed="true"],#x3-2008 .ax-lcd button.selected{color:var(--amber);background:linear-gradient(var(--off),#000 60%,var(--off));box-shadow:inset 1px 2px 3px #000b,inset -1px -1px #ffffff19;border-color:var(--amber)}
+#x3-2008 .ax-lcd button:not(.mx-animation-hit):active{box-shadow:inset 2px 3px 4px #000;transform:translateY(1px)}
+#x3-2008 .ax-button::after{display:none!important}
+#x3-2008 .mx-topbar button,#x3-2008 .mx-topbar button:hover,#x3-2008 .mx-topbar button:active{background:transparent!important;border:0!important;box-shadow:none!important;transform:none}
+#x3-2008 .mx-source-button .mx-skin-icon{background:none;border:0;box-shadow:none;border-radius:0;padding:0}
+#x3-2008 .mx-classic-transport{display:grid;grid-template-columns:repeat(5,minmax(44px,1fr));width:min(100%,420px);align-self:center;gap:3px!important;padding:3px;background:#000;border:1px solid var(--off);border-radius:1px;margin:1px auto 0}
+#x3-2008 .ax-lcd .mx-classic-transport .mx-classic-key{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;min-height:50px;padding:8px!important;gap:0;border:1px solid var(--dim);border-radius:1px;background:linear-gradient(135deg,#ffffff24,transparent 28%,#0008 78%),linear-gradient(to bottom,var(--mid) 0%,var(--dim) 5%,var(--off) 13%,#030708 53%,var(--off) 88%,#000 100%);box-shadow:inset 2px 2px 1px #ffffff36,inset -3px -3px 2px #000c,0 1px 1px #000;color:var(--mid)}
+#x3-2008 .ax-lcd .mx-classic-transport .mx-classic-key::before{content:'';position:absolute;inset:4px;border:1px solid #ffffff0c;pointer-events:none}
+#x3-2008 .ax-lcd .mx-classic-transport .mx-classic-key[aria-pressed="true"]{color:var(--amber);background:linear-gradient(135deg,#ffffff19,transparent 35%,#0008 80%),linear-gradient(to bottom,var(--dim),var(--off) 12%,#000 48%,var(--off) 92%,var(--mid));box-shadow:inset 2px 3px 3px #000b,inset -1px -1px 1px #ffffff24,0 1px #000}
+#x3-2008 .mx-classic-transport .mx-transport-glyph{width:33px!important;height:33px!important;fill:currentColor;stroke:#0008;stroke-width:.7;stroke-linejoin:miter;filter:drop-shadow(1px 1px 0 #000) drop-shadow(-1px -1px 0 #ffffff28)}
+#x3-2008 .mx-classic-transport .mx-classic-key[aria-pressed="true"] .mx-transport-glyph{filter:drop-shadow(1px 1px 0 #000);transform:translateY(1px)}
+/* A shallow circular sweep joins the five destinations to the transport cluster. */
+#x3-2008 .mx-tabs{position:relative;display:flex;justify-content:space-between;align-items:flex-start;width:min(100% - 32px,430px);height:84px;min-height:84px;margin:0 auto;padding:0;background:#000;border:0;gap:0}
+#x3-2008 .ax-lcd .mx-tabs button{flex:0 0 52px;width:52px;height:52px;min-height:52px;padding:12px;display:flex;align-items:center;justify-content:center;border:1px solid var(--dim);border-radius:50%;background:radial-gradient(ellipse at 33% 20%,#ffffff18,transparent 52%),linear-gradient(var(--off),#020607 65%,var(--off));color:var(--mid);box-shadow:inset 1px 1px 1px #ffffff25,inset -2px -3px 3px #000b,0 2px 2px #000}
+#x3-2008 .mx-tabs button:nth-child(2),#x3-2008 .mx-tabs button:nth-child(4){margin-top:22px}
+#x3-2008 .mx-tabs button:nth-child(3){margin-top:30px}
+#x3-2008 .mx-tabs button>span{display:none!important}
+#x3-2008 .mx-tabs button svg{width:25px!important;height:25px!important;filter:none!important;border:0;border-radius:0}
+#x3-2008 .ax-lcd .mx-tabs button.active{color:var(--amber);border-color:var(--amber);background:radial-gradient(ellipse at 38% 20%,#ffffff14,transparent 54%),linear-gradient(var(--off),#000 65%,var(--off));box-shadow:inset 0 2px 3px #000b,inset 0 -1px 1px var(--dim),0 2px 2px #000}
+#x3-2008 .mx-player-pane{gap:4px;padding-top:8px;padding-bottom:4px}
+#x3-2008 .mx-player-pane .mx-player-upper{gap:7px}
+#x3-2008 .mx-player-pane .mx-animation-caption button{min-height:36px}
+#x3-2008 .mx-player-pane .mx-transport{margin-top:0}
+@media(max-width:600px){#x3-2008 .ax-lcd .mx-classic-transport .mx-classic-key{min-height:48px;padding:5px!important}#x3-2008 .mx-classic-transport .mx-transport-glyph{width:28px!important;height:28px!important}#x3-2008 .mx-tabs{width:min(100% - 16px,390px);height:82px;min-height:82px}#x3-2008 .ax-lcd .mx-tabs button{flex-basis:44px;width:44px;height:44px;min-height:44px;padding:10px}#x3-2008 .mx-tabs button svg{width:22px!important;height:22px!important}}
+@media(max-width:360px){#x3-2008 .mx-classic-transport{gap:2px!important;padding:2px}#x3-2008 .mx-classic-transport .mx-transport-glyph{width:25px!important;height:25px!important}}
+#x3-2008 .ax-lcd{height:max(363px,calc(58.6cqw - 50px));min-height:363px}
+#x3-2008 #ax-main{flex:1 1 auto;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--off) #000}
+#x3-2008 .mx-player-pane{min-height:100%}
+#x3-2008 .mx-topbar{padding-top:0;padding-bottom:0}
+#x3-2008 .ax-lcd .mx-classic-transport .mx-classic-key{min-height:44px}
+#x3-2008 .mx-player-pane{gap:3px;padding-top:6px}
+/* Larger, widely spaced navigation; direct animation libraries in the free corners. */
+#x3-2008 .mx-bottom-dock{position:relative;height:108px;min-height:108px;flex-shrink:0;background:#000}
+#x3-2008 .mx-tabs{width:min(100% - 32px,590px);height:108px;min-height:108px}
+#x3-2008 .ax-lcd .mx-tabs button{flex-basis:64px;width:64px;height:64px;min-height:64px;padding:16px}
+#x3-2008 .mx-tabs button:nth-child(2),#x3-2008 .mx-tabs button:nth-child(4){margin-top:29px}
+#x3-2008 .mx-tabs button:nth-child(3){margin-top:40px}
+#x3-2008 .mx-tabs button svg{width:30px!important;height:30px!important}
+#x3-2008 .mx-classic-transport{grid-template-columns:repeat(6,minmax(44px,1fr));width:min(100%,420px)}
+#x3-2008 .mx-classic-key .mx-skin-icon{width:28px!important;height:28px!important}
+#x3-2008 .mx-player-pane{justify-content:space-evenly;gap:5px;padding-top:6px;padding-bottom:10px}
+#x3-2008 .mx-animation-tools{position:absolute;bottom:8px;display:flex;gap:6px;z-index:1}
+#x3-2008 .mx-animation-tools-left{left:16px;width:136px}
+#x3-2008 .mx-animation-tools-right{right:16px;width:136px}
+#x3-2008 .ax-lcd .mx-animation-tools button{flex:1;min-width:0;min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:4px;font-size:10px;line-height:1.2}
+#x3-2008 .mx-animation-tools svg{width:17px!important;height:17px!important}
+/* The original encoded upper/lower meter channels are cropped into adjacent viewports. */
+#x3-2008 .mx-meter-pair{position:absolute;inset:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:hidden}
+#x3-2008 .mx-meter-channel{position:relative;overflow:hidden;min-width:0}
+#x3-2008 .mx-animation .mx-meter-channel img{inset:auto;top:0;left:0;width:100%;height:200%;object-fit:fill;transform:none}
+#x3-2008 .mx-animation .mx-meter-channel .mx-meter-lower{top:-100%}
+@media(max-width:900px){#x3-2008 .mx-bottom-dock{height:160px;min-height:160px}#x3-2008 .mx-tabs{width:min(100% - 24px,570px)}#x3-2008 .mx-animation-tools{bottom:6px}}
+@media(max-width:600px){#x3-2008 .mx-tabs{width:calc(100% - 16px);height:106px;min-height:106px}#x3-2008 .ax-lcd .mx-tabs button{flex-basis:50px;width:50px;height:50px;min-height:50px;padding:12px}#x3-2008 .mx-tabs button svg{width:25px!important;height:25px!important}#x3-2008 .mx-animation-tools-left{left:10px;width:calc(50% - 16px)}#x3-2008 .mx-animation-tools-right{right:10px;width:calc(50% - 16px)}#x3-2008 .ax-lcd .mx-animation-tools button{font-size:9px}#x3-2008 .mx-classic-transport{gap:2px!important;padding:2px}}
+@media(max-width:380px){#x3-2008 .ax-lcd .mx-tabs button{flex-basis:44px;width:44px;height:44px;min-height:44px;padding:10px}#x3-2008 .mx-tabs{width:calc(100% - 8px)}#x3-2008 .mx-classic-transport{grid-template-columns:repeat(6,minmax(0,1fr));gap:1px!important}#x3-2008 .mx-classic-transport .mx-classic-key{min-width:0;padding:3px!important}#x3-2008 .mx-classic-transport .mx-transport-glyph,#x3-2008 .mx-classic-key .mx-skin-icon{width:24px!important;height:24px!important}}

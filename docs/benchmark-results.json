@@ -1,5 +1,5 @@
 {
-  "measuredAt": "2026-10-27T03:08:14.493Z",
+  "measuredAt": "2026-10-27T03:52:41.920Z",
   "environment": "Windows desktop Chrome, headless, x86-64; not the X3",
   "viewport": {
     "width": 1024,
@@ -14,83 +14,83 @@
     "RSS is a desktop process snapshot; summed process working sets can double-count shared pages",
     "No ARM firmware, proprietary peripherals, framebuffer driver, audio DSP, MCU, Bluetooth, camera or phone projection emulated"
   ],
-  "rendererWorkingSetMiB": 217.79,
-  "aggregateWorkingSetMiB": 525.05,
+  "rendererWorkingSetMiB": 207.23,
+  "aggregateWorkingSetMiB": 505.79,
   "runs": [
     {
       "cpuThrottle": 1,
-      "initialLoadMs": 2028.84,
+      "initialLoadMs": 546.91,
       "inputToFrameP50Ms": 13.9,
-      "inputToFrameP95Ms": 872.7,
-      "inputToFrameMaxMs": 1243.9,
-      "observedAnimationChangesPerSec": 15.66,
+      "inputToFrameP95Ms": 308.8,
+      "inputToFrameMaxMs": 511.5,
+      "observedAnimationChangesPerSec": 15.7,
       "observed": {
         "changes": 63,
-        "elapsedMs": 4022.4611999999997,
+        "elapsedMs": 4011.9257999999995,
         "samples": 65,
         "clip": "movie1.lkd",
         "sourceIntervalMs": 63,
         "screenWidth": 1024,
         "screenHeight": 600
       },
-      "jsHeapUsedMiB": 4.57,
+      "jsHeapUsedMiB": 3.06,
       "actionsMeasured": 36
     },
     {
       "cpuThrottle": 4,
-      "initialLoadMs": 8954.64,
-      "inputToFrameP50Ms": 24.6,
-      "inputToFrameP95Ms": 3527.6,
-      "inputToFrameMaxMs": 5025.9,
-      "observedAnimationChangesPerSec": 15.67,
+      "initialLoadMs": 1021.33,
+      "inputToFrameP50Ms": 13.9,
+      "inputToFrameP95Ms": 228.5,
+      "inputToFrameMaxMs": 482.8,
+      "observedAnimationChangesPerSec": 15.63,
       "observed": {
         "changes": 63,
-        "elapsedMs": 4020.7706000000035,
+        "elapsedMs": 4031.0279999999984,
         "samples": 65,
         "clip": "movie1.lkd",
         "sourceIntervalMs": 63,
         "screenWidth": 1024,
         "screenHeight": 600
       },
-      "jsHeapUsedMiB": 4.48,
+      "jsHeapUsedMiB": 3.07,
       "actionsMeasured": 36
     },
     {
       "cpuThrottle": 8,
-      "initialLoadMs": 16408.16,
-      "inputToFrameP50Ms": 51.4,
-      "inputToFrameP95Ms": 7800,
-      "inputToFrameMaxMs": 11135.8,
-      "observedAnimationChangesPerSec": 15.64,
+      "initialLoadMs": 2287.55,
+      "inputToFrameP50Ms": 34,
+      "inputToFrameP95Ms": 141.1,
+      "inputToFrameMaxMs": 250.1,
+      "observedAnimationChangesPerSec": 15.39,
       "observed": {
-        "changes": 63,
-        "elapsedMs": 4027.8768999999884,
-        "samples": 65,
+        "changes": 62,
+        "elapsedMs": 4029.3750999999975,
+        "samples": 64,
         "clip": "movie1.lkd",
         "sourceIntervalMs": 63,
         "screenWidth": 1024,
         "screenHeight": 600
       },
-      "jsHeapUsedMiB": 3.92,
+      "jsHeapUsedMiB": 3.09,
       "actionsMeasured": 36
     },
     {
       "cpuThrottle": 16,
-      "initialLoadMs": 36956.93,
-      "inputToFrameP50Ms": 229.9,
-      "inputToFrameP95Ms": 17560.5,
-      "inputToFrameMaxMs": 25455.6,
-      "observedAnimationChangesPerSec": 15.58,
+      "initialLoadMs": 5044.67,
+      "inputToFrameP50Ms": 75,
+      "inputToFrameP95Ms": 186.1,
+      "inputToFrameMaxMs": 221.4,
+      "observedAnimationChangesPerSec": 15.52,
       "observed": {
         "changes": 63,
-        "elapsedMs": 4043.740699999995,
+        "elapsedMs": 4059.606799999994,
         "samples": 65,
         "clip": "movie1.lkd",
         "sourceIntervalMs": 63,
         "screenWidth": 1024,
         "screenHeight": 600
       },
-      "jsHeapUsedMiB": 3.74,
+      "jsHeapUsedMiB": 3.09,
       "actionsMeasured": 36
     }
   ]

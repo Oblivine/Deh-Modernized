@@ -12,7 +12,7 @@
   "layouts": [
     {
       "name": "player",
-      "height": 589.6875,
+      "height": 587.0625,
       "viewport": 1052,
       "scroll": 1052,
       "overlap": false,
@@ -28,7 +28,7 @@
     },
     {
       "name": "radio",
-      "height": 596.046875,
+      "height": 587.0625,
       "viewport": 1052,
       "scroll": 1052,
       "overlap": false,
@@ -36,7 +36,7 @@
     },
     {
       "name": "EQ",
-      "height": 598.578125,
+      "height": 587.0625,
       "viewport": 1052,
       "scroll": 1052,
       "overlap": false,
@@ -44,7 +44,7 @@
     },
     {
       "name": "player 760",
-      "height": 516.6875,
+      "height": 415.9375,
       "viewport": 760,
       "scroll": 760,
       "overlap": false,
@@ -52,7 +52,7 @@
     },
     {
       "name": "movies 760",
-      "height": 527.296875,
+      "height": 415.9375,
       "viewport": 760,
       "scroll": 760,
       "overlap": false,
@@ -60,7 +60,7 @@
     },
     {
       "name": "player 480",
-      "height": 451.828125,
+      "height": 400,
       "viewport": 480,
       "scroll": 480,
       "overlap": false,
@@ -68,7 +68,7 @@
     },
     {
       "name": "movies 480",
-      "height": 847.984375,
+      "height": 400,
       "viewport": 480,
       "scroll": 480,
       "overlap": false,
@@ -76,7 +76,7 @@
     },
     {
       "name": "player 360",
-      "height": 420.46875,
+      "height": 408,
       "viewport": 360,
       "scroll": 360,
       "overlap": false,
@@ -84,7 +84,7 @@
     },
     {
       "name": "movies 360",
-      "height": 842.484375,
+      "height": 408,
       "viewport": 360,
       "scroll": 360,
       "overlap": false,
@@ -92,7 +92,7 @@
     },
     {
       "name": "player 320",
-      "height": 446.75,
+      "height": 408,
       "viewport": 320,
       "scroll": 320,
       "overlap": false,
@@ -100,7 +100,7 @@
     },
     {
       "name": "movies 320",
-      "height": 919.765625,
+      "height": 408,
       "viewport": 320,
       "scroll": 320,
       "overlap": false,

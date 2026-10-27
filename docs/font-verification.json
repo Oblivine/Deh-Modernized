@@ -1,7 +1,9 @@
 {
-  "family": "Accessories Urban",
-  "originalTtfBytes": 444652,
-  "webFontBytes": 128400,
-  "latinGlyphOutlinesVerified": 62,
-  "appearanceChanged": false
+  "family": "Aldrich",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/aldrich/Aldrich-Regular.ttf",
+  "sourceGitBlobSha": "5c15ab92a55dbca44cb6683ec9a6f4e0647edb59",
+  "license": "SIL Open Font License 1.1",
+  "ttfBytes": 56548,
+  "woff2Bytes": 19628,
+  "nativeGlyphsRetained": true
 }

@@ -1,0 +1,21 @@
+@font-face{font-family:'Audiowide';src:url('assets/fonts/audiowide.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Orbitron';src:url('assets/fonts/orbitron.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+#x3-2008{--ui-font:'Audiowide'}#x3-2008[data-typeface="orbitron"]{--ui-font:'Orbitron'}#x3-2008[data-typeface="accessories"]{--ui-font:'Accessories Urban'}
+#x3-2008,#x3-2008 *{font-family:var(--ui-font),sans-serif!important;font-weight:400!important}
+#x3-2008 button,#x3-2008 .ax-heading,#x3-2008 .mx-track-title,#x3-2008 .mx-track-artist,#x3-2008 .mx-track-index,#x3-2008 .ax-label,#x3-2008 #mx-page-title{text-transform:uppercase}
+#x3-2008 .mx-skin-icon{display:inline-block;width:20px;height:20px;vertical-align:middle;flex-shrink:0;overflow:visible;color:inherit}
+#x3-2008 .mx-player-pane .mx-transport button{font-size:19px;gap:12px;min-height:54px}
+#x3-2008 .mx-transport .mx-play{font-size:22px}
+#x3-2008 .mx-transport-emblem{display:flex;align-items:center;justify-content:center;width:30px;height:30px}
+#x3-2008 .mx-transport-emblem svg{width:28px!important;height:28px!important}
+#x3-2008 .mx-command-short{display:none}
+#x3-2008 .mx-movie-choice{font-size:15px}
+#x3-2008 .mx-tabs button{font-size:12px}
+#x3-2008 .mx-topbar button,#x3-2008 #mx-page-title{font-size:12px}
+#x3-2008 .ax-menu-row{font-size:15px}
+#x3-2008 .ax-tabs .ax-button{font-size:13px}
+#x3-2008 .mx-type-specimen{padding:18px 0 8px;color:var(--hot);display:flex;flex-direction:column;gap:8px}
+#x3-2008 .mx-type-specimen>span{font-size:25px}
+#x3-2008 .mx-type-specimen small{font-size:15px;color:var(--amber)}
+#x3-2008 .mx-source-button>span{min-width:0;overflow-wrap:anywhere}
+@media(max-width:600px){#x3-2008 #mx-page-title{display:none}#x3-2008 .mx-player-pane .mx-transport button{font-size:13px;gap:3px;flex-direction:column;padding:6px 3px}#x3-2008 .mx-command-long{display:none}#x3-2008 .mx-command-short{display:inline}#x3-2008 .mx-transport-emblem{width:22px;height:22px}#x3-2008 .mx-transport-emblem svg{width:22px!important;height:22px!important}#x3-2008 .mx-tabs button{font-size:9px}#x3-2008 .mx-topbar button{font-size:10px}}

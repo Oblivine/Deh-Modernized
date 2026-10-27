@@ -6,7 +6,7 @@
 #x3-2008 .mx-animation{border:0!important;box-shadow:none!important;isolation:isolate}
 #x3-2008 .mx-animation img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain;image-rendering:pixelated;pointer-events:none;border:0}
 #x3-2008 .mx-oel-screen{z-index:0}
-#x3-2008 .mx-oel-glow{z-index:1;opacity:.9;filter:blur(3px) brightness(1.7) saturate(1.15);mix-blend-mode:screen}
+#x3-2008 .mx-oel-glow{z-index:1;opacity:.22;filter:blur(1px) brightness(1.15) saturate(1.05);mix-blend-mode:screen}
 #x3-2008 .mx-animation .mx-animation-hit{position:absolute;top:0;bottom:0;width:50%;z-index:3;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;min-height:44px;color:transparent}
 #x3-2008 .mx-animation .mx-animation-hit:hover,#x3-2008 .mx-animation .mx-animation-hit:active{background:transparent;border:0;box-shadow:none}
 #x3-2008 .mx-animation .mx-animation-hit:focus-visible{outline:2px solid var(--amber);outline-offset:-3px}

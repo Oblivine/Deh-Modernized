@@ -1,0 +1,221 @@
+{
+  "checks": [
+    "all 15 original meters use upper/lower channel crops side by side",
+    "all 30 amber/cyan layouts fill the animation viewport",
+    "encoded frames and native dimensions remain unchanged",
+    "meter animation survives music pause",
+    "larger 64 px round navigation with increased spacing",
+    "category shortcuts work",
+    "movie picker row removed and shuffle moved into transport"
+  ],
+  "results": [
+    {
+      "id": "alt_meter_li01",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li02",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li03",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li04",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li05",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li06",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li07",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li08",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "level01",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level02",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "level03",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level04",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level05",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level06_f",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level07_f",
+      "mode": "cyan",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li01",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li02",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li03",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li04",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li05",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li06",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li07",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "alt_meter_li08",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "level01",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level02",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "level03",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level04",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level05",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level06_f",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    },
+    {
+      "id": "meter_level07_f",
+      "mode": "amber",
+      "channels": 2,
+      "sourceUnchanged": true
+    }
+  ],
+  "buttons": [
+    {
+      "width": 64,
+      "height": 64,
+      "x": 261.5
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "x": 393
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "x": 524.5
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "x": 656
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "x": 787.5
+    }
+  ],
+  "errors": []
+}

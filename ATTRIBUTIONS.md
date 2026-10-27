@@ -4,6 +4,6 @@ The Pioneer OEL clip collection and decoder reference originate from https://git
 
 The scanline, glow and inset-shadow settings are adapted from the reference player in that repository. The UI code contains no reference-site analytics or remote API dependency.
 
-Lucide is used under its included ISC license. Accessories Urban is a user-supplied font; its original metadata is retained. This project does not assign a new license to third-party assets.
+Audiowide and Orbitron are included with their SIL Open Font License files. Accessories Urban is a user-supplied font; its original metadata is retained. This project does not assign a new license to third-party assets.
 
-The alloy vector skin and emblem are project UI artwork, inspired by the supplied Y2K references. Reference screenshots are not bundled.
+The control glyphs, tinted button skin and alloy header are project UI artwork, inspired by the supplied Y2K references. Reference screenshots are not bundled.
