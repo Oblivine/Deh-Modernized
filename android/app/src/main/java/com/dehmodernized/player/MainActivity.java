@@ -123,11 +123,81 @@ public final class MainActivity extends Activity {
         @JavascriptInterface public void chooseMusic(){runOnUiThread(()->{startAfterPick=false;pickMusic();});}
         @JavascriptInterface public void playback(String command){runOnUiThread(()->perform(command));}
         @JavascriptInterface public void openApps(){runOnUiThread(()->showApps());}
+        @JavascriptInterface public void openUnitFeature(String feature){runOnUiThread(()->openUnitFeatureApp(feature));}
+        @JavascriptInterface public void configureUnitFeature(String feature){runOnUiThread(()->chooseUnitFeatureApp(feature,false));}
+        @JavascriptInterface public String unitMappings(){
+            JSONObject mappings=new JSONObject();
+            for(String feature:new String[]{"radio","phone","camera","equalizer"}){
+                try{mappings.put(feature,prefs.getString("unit_label_"+feature,""));}catch(Exception ignored){}
+            }
+            return mappings.toString();
+        }
         @JavascriptInterface public void homeSettings(){runOnUiThread(()->{try{startActivity(new Intent(Settings.ACTION_HOME_SETTINGS));}catch(Exception ex){Toast.makeText(MainActivity.this,"Home app settings are unavailable on this unit.",Toast.LENGTH_LONG).show();}});}
         @JavascriptInterface public void volumePanel(){runOnUiThread(()->audio.adjustStreamVolume(AudioManager.STREAM_MUSIC,AudioManager.ADJUST_SAME,AudioManager.FLAG_SHOW_UI));}
         @JavascriptInterface public void showMessage(String text){runOnUiThread(()->Toast.makeText(MainActivity.this,text,Toast.LENGTH_SHORT).show());}
         @JavascriptInterface public String options(){JSONObject j=new JSONObject();try{j.put("volumeNav",prefs.getBoolean("volume_nav",false));j.put("reverseDial",prefs.getBoolean("reverse_dial",false));j.put("lastInput",prefs.getString("last_input","No input received yet"));}catch(Exception ignored){}return j.toString();}
         @JavascriptInterface public void setOption(String key,boolean value){if("volumeNav".equals(key))prefs.edit().putBoolean("volume_nav",value).apply();else if("reverseDial".equals(key))prefs.edit().putBoolean("reverse_dial",value).apply();}
+    }
+    // These are shortcuts to the unit's existing apps, not direct access to its hardware.
+    private String unitFeatureName(String feature){
+        if("radio".equals(feature))return "Radio";
+        if("phone".equals(feature))return "Bluetooth phone";
+        if("camera".equals(feature))return "Camera";
+        if("equalizer".equals(feature))return "Audio / EQ";
+        return null;
+    }
+    private void mappingsChanged(){
+        if(web!=null&&pageReady)web.evaluateJavascript("window.DEHUnitMappingsChanged&&window.DEHUnitMappingsChanged()",null);
+    }
+    private void openUnitFeatureApp(String feature){
+        if(unitFeatureName(feature)==null)return;
+        String saved=prefs.getString("unit_app_"+feature,"");
+        ComponentName component=ComponentName.unflattenFromString(saved);
+        if(component==null){chooseUnitFeatureApp(feature,true);return;}
+        Intent launch=new Intent(Intent.ACTION_MAIN);launch.addCategory(Intent.CATEGORY_LAUNCHER);launch.setComponent(component);
+        try{
+            startActivity(launch);
+            // Avoid two audio sources playing at once when entering the radio or phone app.
+            if("radio".equals(feature)||"phone".equals(feature)){
+                if("playing".equals(state)||playWhenReady)perform("pause");
+                audio.abandonAudioFocus(focus);
+            }
+        }catch(ActivityNotFoundException|SecurityException ex){
+            Toast.makeText(this,"This app is unavailable. Choose it again in Android & dial setup.",Toast.LENGTH_LONG).show();
+        }
+    }
+    private void chooseUnitFeatureApp(String feature,boolean openAfterSelection){
+        String name=unitFeatureName(feature);if(name==null)return;
+        Intent query=new Intent(Intent.ACTION_MAIN);query.addCategory(Intent.CATEGORY_LAUNCHER);
+        List<ResolveInfo> apps=getPackageManager().queryIntentActivities(query,0);
+        Collections.sort(apps,new ResolveInfo.DisplayNameComparator(getPackageManager()));
+        ArrayList<ResolveInfo> choices=new ArrayList<>();ArrayList<String> labels=new ArrayList<>();
+        for(ResolveInfo info:apps){
+            if(info.activityInfo==null||!info.activityInfo.exported||!info.activityInfo.enabled||getPackageName().equals(info.activityInfo.packageName))continue;
+            choices.add(info);labels.add(info.loadLabel(getPackageManager()).toString()+"\n"+info.activityInfo.packageName);
+        }
+        if(choices.isEmpty()){
+            AlertDialog.Builder unavailable=new AlertDialog.Builder(this).setTitle(name+" app unavailable")
+                .setMessage("No other launchable apps are visible. Some unit apps may be hidden or unavailable to this launcher.")
+                .setPositiveButton("OK",null);
+            if(!prefs.getString("unit_app_"+feature,"").isEmpty())unavailable.setNeutralButton("Clear shortcut",(d,w)->{
+                prefs.edit().remove("unit_app_"+feature).remove("unit_label_"+feature).apply();mappingsChanged();
+            });
+            unavailable.show();return;
+        }
+        AlertDialog.Builder dialog=new AlertDialog.Builder(this).setTitle("Choose the unit's "+name+" app")
+            .setItems(labels.toArray(new String[0]),(d,which)->{
+                ResolveInfo selected=choices.get(which);
+                ComponentName component=new ComponentName(selected.activityInfo.packageName,selected.activityInfo.name);
+                prefs.edit().putString("unit_app_"+feature,component.flattenToString())
+                    .putString("unit_label_"+feature,selected.loadLabel(getPackageManager()).toString()).apply();
+                mappingsChanged();
+                if(openAfterSelection)openUnitFeatureApp(feature);
+            }).setNegativeButton("Cancel",null);
+        if(!prefs.getString("unit_app_"+feature,"").isEmpty())dialog.setNeutralButton("Clear",(d,w)->{
+            prefs.edit().remove("unit_app_"+feature).remove("unit_label_"+feature).apply();mappingsChanged();
+        });
+        dialog.show();
     }
     private void showApps(){
         Intent query=new Intent(Intent.ACTION_MAIN);query.addCategory(Intent.CATEGORY_LAUNCHER);

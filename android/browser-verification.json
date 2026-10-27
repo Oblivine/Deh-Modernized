@@ -1,12 +1,13 @@
 {
   "checks": [
-    "Android UI fills the screen and displays native playback state",
-    "Playback buttons send commands to Android and reflect returned state",
-    "Music picker requested; unavailable radio integration is identified",
-    "Dial rotation moves focus and dial press selects",
-    "Android apps, optional Home selection and optional volume-key navigation work through the bridge",
-    "Animation library changes retain native playback metadata"
+    "Android UI fills the screen and displays mocked native playback state",
+    "Playback buttons send commands to mocked Android bridge and reflect returned state",
+    "Radio, Bluetooth phone, camera and hardware EQ controls request their configured unit app",
+    "Dial navigation moves focus and selects a control",
+    "Four unit-app assignments display mock selections and respond to changes or clearing",
+    "Android apps, optional Home selection and volume-key navigation use the bridge",
+    "Animation changes retain mocked playback metadata"
   ],
   "errors": [],
-  "scope": "Mock native bridge in desktop Chrome; does not verify Android runtime or head unit"
+  "scope": "Mock native bridge in desktop Chrome; does not verify Android runtime, installed vendor apps, or head unit hardware"
 }
