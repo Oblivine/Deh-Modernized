@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "Color manual navigation reaches all 24 clips, including stills",
+    "Color shuffle switches away from stills and visits all 14 moving clips",
+    "Meter shuffle covers 15 moving meters and advances automatically",
+    "Movie shuffle covers all 17 movies without crossing libraries",
+    "Shuffle preferences and manual still selection persist per library",
+    "Removed animation menu and Backgrounds control remain absent"
+  ],
+  "errors": [],
+  "counts": {
+    "Color": {
+      "all": 24,
+      "moving": 14,
+      "stills": 10
+    },
+    "Meters": {
+      "all": 15,
+      "moving": 15
+    },
+    "Movies": {
+      "all": 17,
+      "moving": 17
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # X3 interface feasibility assessment
 
-26 October 2026. Assessment of a documented reference platform; the user's physical X3 has not been diagnosed or benchmarked.
+27 October 2026. Assessment of a documented reference platform; the user's physical X3 has not been diagnosed or benchmarked.
 
 ## Result
 
@@ -8,15 +8,13 @@
 
 ## What changed and what works
 
-The current interface uses selectable Audiowide, Orbitron and Accessories Urban, theme-tinted recessed playback keys and round icon navigation in a symmetric arc, larger round navigation, corner shortcuts for Backgrounds/Color/Meters, and movie shuffle within the playback strip and a single header frame. Scanlines, glow and edge shading apply only to the animation. The left and right halves of the animation select the previous and next movie. There is no song-seeking slider. Amber/Cyan illumination changes the interface and monochrome clip files, with full-color clips retained. All encoded movie dimensions remain native. Meter displays crop the original upper/lower halves into adjacent viewports; they do not regenerate source frames. Browser image-cache sharing across the meter and glow layers has not been verified on the X3.
+The interface uses compact track information, a wide animation area, accessible playback controls and larger round navigation. The screen fits a 720 × 405 browser preview without scrolling. Amber and cyan settings change the interface and monochrome clips; original full-color clips retain their colors. Scanlines, a light glow and edge shading apply only to the animation. Audio, radio, phone and camera features remain demonstrations.
 
-Removed the requested USB music label, recorded-animation caption, and Library / Repeat / Shuffle / Photos buttons from the player. The original X3 knob, Home/Power key and port layout remain. Player transport, radio tuning/presets, volume, audio controls, automatic dimming and saved preferences remain interactive demonstrations. Music is silent; radio, phone and camera services do not access hardware.
+Movies, Color and Meters are direct animation libraries. Tapping the left or right half of the animation stays within the chosen library. Shuffle is saved independently for each library and advances moving clips at their original timing; Color still images are available only when its shuffle is off. Movie music playback controls do not pause animations. The animation gallery and Backgrounds shortcut were removed. Meter channels use the original upper and lower frames placed side by side, and are recorded rather than audio-reactive.
 
-The picker displays all 17 movies on one screen at head-unit size; a tap begins playback, and optional shuffle advances after a full clip. Animated clips have no pause control and retain the original resolution and presentation size. The picker contains all **83 original Carozerra assets: 59 amber and 24 original RGB color**, organized into Movies, Backgrounds, Meters, Stills and Color. This includes still images that are part of the collection. All **3,592 frames**, frame order and native dimensions were verified against pinned original Git blobs. The 63 ms frame interval follows the reference web player; timing on actual Pioneer hardware was not measured. Meter clips are recorded animations, not live audio analysis. [Original reference](https://youxufkhan.github.io/carozerra/), [pinned source collection](https://github.com/youxufkhan/carozerra/tree/main/assets/clips).
+The package retains all 83 original assets: 59 monochrome and 24 full-color, including ten color stills. The direct libraries expose 17 movies, 24 color files and 15 meters. All 3,592 original frames, order and native dimensions were checked against pinned Git blobs. A browser may retain decoded caches for the animation and glow layers; the memory model is not a bounded native decoder. [Original reference](https://youxufkhan.github.io/carozerra/), [source collection](https://github.com/youxufkhan/carozerra/tree/main/assets/clips).
 
-The player loads one active animated asset. It loads the next clip before switching so the current one can keep moving; other animation categories show at most six still thumbnails per desktop page, four on small screens. A browser may retain decoded image caches after navigation. This is not an implementation of a bounded native streaming decoder.
-
-Browser checks passed all 83 animation decodes, the 17-movie picker and shuffle cycle, automatic switching while music is paused, playback, radio, EQ, dimming, persistence and responsive layouts, with no script errors. Native-size layout checks kept the panel controls within the available frame. Hardware lab is on the second Settings page.
+Browser checks covered each library, still exclusion while shuffling, automatic advancement, saved preferences, playback, and 27 combinations of three fonts, three libraries and 720 × 405, 800 × 480, and 1024 × 600 viewports. They do not measure physical touch targets or performance on the actual unit. The desktop stress snapshot below measured an earlier interface revision and is not a benchmark of the current build.
 
 ## Documented hardware and limits
 

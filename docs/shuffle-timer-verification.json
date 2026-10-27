@@ -1,0 +1,7 @@
+{
+  "checks": [
+    "Color auto shuffle advances moving clips",
+    "rapid library changes and edge taps remain in the final chosen library"
+  ],
+  "errors": []
+}

@@ -10,13 +10,13 @@ Download this repository using **Code → Download ZIP**, extract it, and open *
 
 ## Controls and appearance
 
-- **Settings → Display → Color** switches between Amber and Original cyan. The interface and monochrome animation files change together. The 24 original full-color clips retain their colors.
-- All **83 original clips** are included at their native resolution. The gallery under Settings → Display → Dimmer → Animations shows all 17 movies at head-unit size; tap one to play it.
-- Click the **left half** of the playing animation for the previous movie and the **right half** for the next. The shuffle key in the playback strip advances animation movies after a clip finishes and avoids repeats through the cycle. It does not shuffle the demo songs.
-- Animated clips stay in motion independently of music play/pause. There is no animation-pause option or song-seeking slider.
-- Scanlines, a restrained glow and edge shading apply **only to the animation**. The display backdrop is pure black.
-- **Display → Font** offers Audiowide, Orbitron and the supplied Accessories Urban font. All three are embedded for local playback, and the choice is saved. Custom control emblems match the skin. Playback has separate previous, play, pause, stop and next keys; the larger, 64 px round navigation buttons form a widely spaced half-circle below them. The bottom corners open Backgrounds, Color and Meters. Meter channels are cropped from their original vertical arrangement and shown side by side across the display. The former Movies selector row is removed. The header is one continuous frame; the spiked emblem is removed. Buttons use the tinted media-player finish, with no chrome button frames.
-- Source selection, volume, radio presets, 16-band EQ, audio settings, auto-dimming and saved preferences are interactive. Audio, radio and hardware connections are demonstrations.
+- **Settings → Display → Color** switches Amber and Original cyan. Full-color animations retain their original colors.
+- The **Movies, Color and Meters** buttons switch animation libraries directly. Tap the left or right side of the animation to browse within the selected library.
+- **Shuffle** works independently for each library and advances moving clips when they finish. Color stills are available through manual browsing when Color shuffle is off; shuffle skips them.
+- The compact layout keeps playback controls visible at the 720 × 405 preview size, with large round navigation buttons. There is no animation-pause control or song-seeking slider.
+- All 83 original assets remain bundled at native resolution. Meters show their original stacked channels side by side; they are recorded, not live audio meters.
+- **Display → Font** offers Audiowide, Orbitron and the supplied Accessories Urban font. The font, theme, dimming and animation preferences are saved.
+- Source selection, volume, radio presets, 16-band EQ and audio settings are interactive demonstrations. Audio, radio and hardware connections are simulated.
 
 ![Amber player](docs/previews/amber.png)
 
