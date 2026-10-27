@@ -6,6 +6,8 @@ This is a fully working browser prototype intended as a visual and behavioral re
 
 **Live demo intent**: open `index.html` locally or host the folder. The player opens directly into the stereo interface.
 
+> **Important**: The complete working player (`index.html`, full `player.js`, and all 83 animation assets) is provided in the project zip. Upload those files into this repository (or use the zip directly) for a fully functional experience. The GitHub tree currently holds documentation and verification data.
+
 ## What’s included
 
 - **83 original Carozerra animation clips**
@@ -13,6 +15,7 @@ This is a fully working browser prototype intended as a visual and behavioral re
   - 24 full original RGB color
 - Continuous animation (no pause) + movie shuffle
 - Simplified one-screen Movies picker (all 17 movies at once; tap returns to Now Playing)
+- **Illumination color switch**: Amber or Blue (Settings → Display)
 - Source selection, transport, volume, radio tuning + presets
 - 16-band EQ, audio settings, auto-dimming (clock schedule / vehicle lights / manual)
 - Interactive memory model + desktop stress-test lab
@@ -21,7 +24,7 @@ This is a fully working browser prototype intended as a visual and behavioral re
 
 ## Design direction
 
-- Predominantly black faceplate with amber/orange illuminated text, indicators and animations
+- Predominantly black faceplate with amber/orange (or blue) illuminated text, indicators and animations
 - Period-correct dense layouts, segmented numbers, compact uppercase labels
 - Hardware bezel that mirrors the real X3 front-panel controls (knob, Home/Power, USB, AUX, MIC, RST)
 - No modern “dashboard app” styling — deliberately 2008-era car-audio aesthetic
@@ -68,7 +71,7 @@ No exact SPHE8368-U board model appears in the examined QEMU Arm documentation. 
 
 ```
 ├── index.html          # Self-contained player (assets embedded as JSON + files)
-├── player.js           # All UI logic, state, auto-dimming, lab
+├── player.js           # All UI logic, state, auto-dimming, theme, lab
 ├── assets/
 │   ├── animations/     # 83 × .webp (animated) + .png (still)
 │   ├── lucide.min.js
@@ -85,9 +88,11 @@ No exact SPHE8368-U board model appears in the examined QEMU Arm documentation. 
 
 ## Running
 
-1. Clone or download the repository.
-2. Open `index.html` in a modern browser (Chrome / Edge recommended for the painted-frame tests).
+1. Download the complete project zip (or upload its contents into this repo).
+2. Open `index.html` in a modern browser (Chrome / Edge recommended).
 3. Or serve the folder with any static HTTP server.
+
+**Theme**: Settings → Display → Illumination color → Amber or Blue.
 
 All settings persist across reloads via `localStorage` key `x3-2008-v3`.
 
