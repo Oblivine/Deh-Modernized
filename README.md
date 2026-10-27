@@ -1,5 +1,9 @@
 # DEH Modernized
 
+## Android head-unit preview
+
+Download the [Android preview APK](android/DEH-Modernized-Android-preview.apk?raw=1) and open it on an Android 8+ head unit. The optional Home-app setting can open it after boot if the unit permits it. File playback and dial support require testing on the target unit; FM, Bluetooth, camera and manufacturer DSP integrations are not connected. See [Android setup and limitations](android/README.md).
+
 A complete, interactive Eonon X3 interface prototype with a Y2K cybercore skin: recessed theme-tinted media keys, round icon navigation and a carbon-alloy header, original Pioneer OEL animations and Amber/Cyan illumination.
 
 ![Cyan player](docs/previews/cyan.png)

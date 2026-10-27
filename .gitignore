@@ -2,3 +2,8 @@ dist/
 source/originals/
 __pycache__/
 *.pyc
+android/.gradle/
+android/**/build/
+android/local.properties
+*.keystore
+*.jks

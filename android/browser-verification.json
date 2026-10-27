@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Android UI fills the screen and displays native playback state",
+    "Playback buttons send commands to Android and reflect returned state",
+    "Music picker requested; unavailable radio integration is identified",
+    "Dial rotation moves focus and dial press selects",
+    "Android apps, optional Home selection and optional volume-key navigation work through the bridge",
+    "Animation library changes retain native playback metadata"
+  ],
+  "errors": [],
+  "scope": "Mock native bridge in desktop Chrome; does not verify Android runtime or head unit"
+}

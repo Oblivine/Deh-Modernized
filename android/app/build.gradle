@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.dehmodernized.player'
+    compileSdk 35
+    defaultConfig { applicationId 'com.dehmodernized.player'; minSdk 26; targetSdk 35; versionCode 1; versionName '0.1-preview' }
+    signingConfigs { debug { if (System.getenv('DEH_DEBUG_KEYSTORE')) { storeFile file(System.getenv('DEH_DEBUG_KEYSTORE')); storePassword 'android'; keyAlias 'androiddebugkey'; keyPassword 'android' } } }
+    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.debug; debuggable false } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation 'androidx.webkit:webkit:1.12.1' }
+
+def sharedAssets = System.getenv('DEH_SHARED_ASSETS') ?: new File(rootProject.projectDir, '../assets').absolutePath
+tasks.register('syncPlayerAssets', Sync) {
+    from(sharedAssets)
+    into(layout.buildDirectory.dir('generated/playerAssets/www/assets'))
+    doFirst { if (!file(sharedAssets).isDirectory()) throw new GradleException('Shared player assets were not found. Keep the Android folder next to the repository assets folder.') }
+}
+android.sourceSets.main.assets.srcDir(layout.buildDirectory.dir('generated/playerAssets'))
+tasks.named('preBuild').configure { dependsOn('syncPlayerAssets') }
