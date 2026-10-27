@@ -17,9 +17,23 @@ Copy `DEH-Modernized-Android-preview.apk` to the unit with a USB drive, or downl
 
 ## Current limitations
 
-The target is the Eonon UX7A, but no UX7A or other Android unit has been connected or tested. Eonon advertises radio, Bluetooth calling, a reverse-camera input and DSP, but its public product information does not establish third-party APIs for directly controlling them. The stock-app shortcuts depend on the matching apps being installed and launchable; their names and behavior on the UX7A remain unverified. The unit is responsible for any automatic reverse-camera takeover, which this app does not implement or override. The Android audio-session equalizer is not a substitute for the unit's hardware DSP.
+The current candidate is the universal 7-inch, 2-DIN Android head unit listed at https://www.aliexpress.us/item/3256813188616078.html. Its lowest-priced option is labelled 2-32G No Carplay. The internal platform, Android version, true specifications and firmware are not yet verified, and the unit has not been purchased or tested. Physical fit and wiring for a 2008 Yaris hatchback must be confirmed. The earlier Eonon UX7A was a candidate, not a verified match. Neither the listing nor the supplied Civic cleanup write-up establishes third-party APIs for directly controlling this unit’s hardware. The stock-app shortcuts depend on the matching apps being installed and launchable; their names and behavior on the UX7A remain unverified. The unit is responsible for any automatic reverse-camera takeover, which this app does not implement or override. The Android audio-session equalizer is not a substitute for the unit's hardware DSP.
 
 File playback and controls were implemented but not tested on an Android device. Background playback, resume after sleep/reboot, audio-focus behavior, long playlists, removable USB storage, different WebView versions, launcher startup and all dial events require real-unit testing. Android Auto and CarPlay are not integrated. It does not replace firmware or claim the supported functions of a manufacturer app. It does not run as an Android Auto projected app on a phone.
+
+# Head-unit inventory helper
+
+`tools/inspect-head-unit.ps1` is an optional, read-only inventory for an Android unit that is already connected to ADB and authorized on the unit. It records the Android-reported version, API, model, hardware and CPU properties, total memory, available WebView provider details, package names and launchable activity names. These are self-reported values and are not proof of the actual hardware. Availability varies by Android version and vendor.
+
+The helper does not connect or pair, install or disable apps, change settings, root, flash, take screenshots, or collect logcat. It requires exactly one connected and authorized ADB device and refuses to overwrite an existing report. Device serial numbers and IP addresses are deliberately not recorded. The report includes installed package and activity names, which can reveal private information; review it before sharing.
+
+Example, after installing Google's official Android platform-tools and authorizing the device yourself:
+
+```powershell
+.\tools\inspect-head-unit.ps1 -AdbPath 'C:\platform-tools\adb.exe' -ReportPath '.\head-unit-report.txt'
+```
+
+Inspecting device-specific vendor app components may help identify possible integrations; it does not establish that direct radio, phone, camera, or DSP APIs are available or safe to use.
 
 ## Build
 
